@@ -1,9 +1,8 @@
-import LoadingButton from '@mui/lab/LoadingButton';
+import { CircularProgress } from '@mui/material';
 
-export default function DefaultLoadingButton(props) {
+export default function Loading() {
     return (
-        <LoadingButton {...props}>
-            {props.children}
-        </LoadingButton>
+        <CircularProgress />
     )
 }
+
